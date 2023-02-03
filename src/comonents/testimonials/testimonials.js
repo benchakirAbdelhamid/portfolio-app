@@ -113,7 +113,7 @@ function testimonials() {
             </div>
 
             <div className="testimonials-title">
-              <h3 className="sub-heading color-white">Testimonials</h3>
+              <h3 className="sub-heading color-white">Comments</h3>
               <h1 className="heading text_testimonials color-white">
                 Hear from my happy clients
               </h1>
