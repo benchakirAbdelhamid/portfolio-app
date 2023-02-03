@@ -86,6 +86,9 @@
     animation: animate_icon 1.5s infinite linear;
     animation-delay: 1.2s;
 }
+.text b {
+    color: rgb(184, 156, 2);
+}
 
 @keyframes animate_icon {
     0% {
