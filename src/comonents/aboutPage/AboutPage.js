@@ -44,7 +44,7 @@ function About() {
             <div className="about-info">
               <h3 className="sub-heading">About me</h3>
               <h1 className="heading">
-                Better design <br />
+              
                 better experiences
               </h1>
               <p className="text">
