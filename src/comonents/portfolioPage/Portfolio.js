@@ -57,19 +57,19 @@ function Portfolio() {
                   className="filter-btn mixitup-control"
                   data-filter=".product"
                 >
-                  Product
+                  REACT
                 </button>
                 <button
                   className="filter-btn mixitup-control"
                   data-filter=".inter"
                 >
-                  Interacting
+                  PHP
                 </button>
                 <button
                   className="filter-btn mixitup-control"
                   data-filter=".web"
                 >
-                  Web App
+                 HTML/CSS/JAVASCRIPT
                 </button>
               </div>
             </div>
