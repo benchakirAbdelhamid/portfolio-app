@@ -38,7 +38,7 @@ function About() {
               <div className="about-card">
                 <i className="bx bxl-javascript icon-about"></i>
                 <i className="bx bxl-sass icon-about"></i>
-                <i className="fa-brands fa-laravel icon-about"></i>
+                <i className="bx bxl-react icon-about"></i>
               </div>
             </div>
             <div className="about-info">
