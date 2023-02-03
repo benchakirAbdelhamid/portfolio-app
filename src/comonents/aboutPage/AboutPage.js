@@ -48,10 +48,18 @@ function About() {
                 better experiences
               </h1>
               <p className="text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et
-                reprehenderit velit, modi dolorum voluptatem perferendis
-                voluptas. Molestiae cum veniam sunt deleniti? Architecto est
-                modi obcaecati consequatur reiciendis nostrum rerum dicta?
+                Hello, my name is Abdel Hamid benchakir , I am currently working
+                as a full independent developer while also looking for training
+                opportunities with companies to further develop my capabilities.
+                I have a strong passion for programming and two years experience
+                in different projects individually and as part of a team. I have
+                mastered a range of advanced technologies, including{" "}
+                <b>
+                  JavaScript , PHP , React , Laravel , MongoDB , MySQL ,
+                  Git/Github , HTML/CSS{" "}
+                </b>{" "}
+                , and many other <b> frameworks</b> . I have a Cisco snake
+                certificate and I have also done many projects and websites
               </p>
             </div>
           </div>
