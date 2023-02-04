@@ -6,6 +6,7 @@ import handme from "../../assets/handme.png";
 import circle1 from "../../assets/circle1.png";
 import dots from "../../assets/dots.png";
 import Typed from "typed.js";
+import pdf from "./cv.pdf";
 
 function HomePage() {
   // create ref element
@@ -59,7 +60,7 @@ function HomePage() {
                   Contact me
                 </a>
                 <a
-                  href="assets/markusCV.pdf"
+                  href={pdf}
                   download
                   className="btn secondary-btn"
                 >
