@@ -1,10 +1,10 @@
 import React, { useRef, useEffect } from "react";
-import port1 from "../../assets/port1.jpg";
+import port1 from "../../assets/port1.png";
 import port2 from "../../assets/port2.png";
-import port3 from "../../assets/port3.jpg";
+import port3 from "../../assets/port3.png";
 import port4 from "../../assets/port4.png";
 import port5 from "../../assets/port5.png";
-import port6 from "../../assets/port6.jpg";
+import port6 from "../../assets/port6.png";
 import mixitup from "mixitup";
 import "./Portfolio.css";
 function Portfolio() {
@@ -51,7 +51,7 @@ function Portfolio() {
                   className="filter-btn mixitup-control"
                   data-filter="all"
                 >
-                  All
+                  ALL
                 </button>
                 <button
                   className="filter-btn mixitup-control"
@@ -59,35 +59,37 @@ function Portfolio() {
                 >
                   REACT
                 </button>
-                <button
-                  className="filter-btn mixitup-control"
-                  data-filter=".inter"
-                >
-                  PHP
-                </button>
+
                 <button
                   className="filter-btn mixitup-control"
                   data-filter=".web"
                 >
-                 HTML/CSS/JAVASCRIPT
+                  HTML/CSS/JAVASCRIPT
                 </button>
               </div>
             </div>
             <div className="portfolio-gallery">
-              <div className="mix prt-card item inter" data-order="1">
+              <div className="mix prt-card item product" data-order="1">
                 <div className="prt-image">
                   <img src={port1} alt="" />
                   <div className="prt-overlay">
                     <span className="prt-icon zoom_icon">
-                      <a href="#">
+                      <a
+                        href="https://famous-gelato-bf9959.netlify.app"
+                        target="_blank"
+                      >
                         <i className="bx bx-link-external"></i>
                       </a>
                     </span>
                   </div>
                 </div>
                 <div className="prt-desc">
-                  <h3>Olido interaction</h3>
-                  <a href="#" className="btn secondary-btn sm">
+                  <h3>restaurant app</h3>
+                  <a
+                    href="https://famous-gelato-bf9959.netlify.app"
+                    target="_blank"
+                    className="btn secondary-btn sm"
+                  >
                     Read more
                   </a>
                 </div>
@@ -98,7 +100,10 @@ function Portfolio() {
                   <img src={port2} alt="" />
                   <div className="prt-overlay">
                     <span className="prt-icon zoom_icon">
-                      <a href="#">
+                      <a
+                        href="https://moviess-iota.vercel.app/"
+                        target="_blank"
+                      >
                         {/* <i className="uil uil-search-plus"></i> */}
                         <i class="bx bx-link-external"></i>
                       </a>
@@ -106,8 +111,12 @@ function Portfolio() {
                   </div>
                 </div>
                 <div className="prt-desc">
-                  <h3>John product design</h3>
-                  <a href="#" className="btn secondary-btn sm">
+                  <h3>movies app</h3>
+                  <a
+                    href="https://moviess-iota.vercel.app/"
+                    target="_blank"
+                    className="btn secondary-btn sm"
+                  >
                     Read more
                   </a>
                 </div>
@@ -118,15 +127,22 @@ function Portfolio() {
                   <img src={port3} alt="" />
                   <div className="prt-overlay">
                     <span className="prt-icon zoom_icon">
-                      <a href="#">
+                      <a
+                        href="https://web-site2-8kt3.vercel.app/"
+                        target="_blank"
+                      >
                         <i class="bx bx-link-external"></i>
                       </a>
                     </span>
                   </div>
                 </div>
                 <div className="prt-desc">
-                  <h3>Meta web design</h3>
-                  <a href="#" className="btn secondary-btn sm">
+                  <h3>Online Classes </h3>
+                  <a
+                    href="https://web-site2-8kt3.vercel.app/"
+                    target="_blank"
+                    className="btn secondary-btn sm"
+                  >
                     Read more
                   </a>
                 </div>
@@ -137,53 +153,71 @@ function Portfolio() {
                   <img src={port4} alt="" />
                   <div className="prt-overlay">
                     <span className="prt-icon zoom_icon">
-                      <a href="#">
+                      <a
+                        href="https://website-khaki-zeta.vercel.app/"
+                        target="_blank"
+                      >
                         <i class="bx bx-link-external"></i>
                       </a>
                     </span>
                   </div>
                 </div>
                 <div className="prt-desc">
-                  <h3>TwitUp web design</h3>
-                  <a href="#" className="btn secondary-btn sm">
+                  <h3>Hair Studio</h3>
+                  <a
+                    href="https://website-khaki-zeta.vercel.app/"
+                    target="_blank"
+                    className="btn secondary-btn sm"
+                  >
                     Read more
                   </a>
                 </div>
               </div>
 
-              <div className="mix prt-card item inter" data-order="5">
+              <div className="mix prt-card item web" data-order="5">
                 <div className="prt-image">
                   <img src={port5} alt="" />
                   <div className="prt-overlay">
                     <span className="prt-icon zoom_icon">
-                      <a href="#">
+                      <a href="https://website-car.vercel.app/" target="_blank">
                         <i class="bx bx-link-external"></i>
                       </a>
                     </span>
                   </div>
                 </div>
                 <div className="prt-desc">
-                  <h3>Markus interaction</h3>
-                  <a href="#" className="btn secondary-btn sm">
+                  <h3>rent a car</h3>
+                  <a
+                    href="https://website-car.vercel.app/"
+                    target="_blank"
+                    className="btn secondary-btn sm"
+                  >
                     Read more
                   </a>
                 </div>
               </div>
 
-              <div className="mix prt-card item product" data-order="6">
+              <div className="mix prt-card item web" data-order="6">
                 <div className="prt-image">
                   <img src={port6} alt="" />
                   <div className="prt-overlay">
                     <span className="prt-icon zoom_icon">
-                      <a href="#">
+                      <a
+                        href="https://web-site1-wine.vercel.app/"
+                        target="_blank"
+                      >
                         <i class="bx bx-link-external"></i>
                       </a>
                     </span>
                   </div>
                 </div>
                 <div className="prt-desc">
-                  <h3>Demga web design</h3>
-                  <a href="#" className="btn secondary-btn sm">
+                  <h3>portfolio app</h3>
+                  <a
+                    href="https://web-site1-wine.vercel.app/"
+                    target="_blank"
+                    className="btn secondary-btn sm"
+                  >
                     Read more
                   </a>
                 </div>
