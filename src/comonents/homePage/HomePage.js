@@ -6,6 +6,7 @@ import handme from "../../assets/handme.png";
 import circle1 from "../../assets/circle1.png";
 import dots from "../../assets/dots.png";
 import Typed from "typed.js";
+// pdf
 import pdf from "./cv.pdf";
 
 function HomePage() {
