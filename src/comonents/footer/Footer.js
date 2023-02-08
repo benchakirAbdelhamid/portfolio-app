@@ -26,12 +26,6 @@ function Footer() {
                 </li>
                 <li className="section_li">
                   <a href="#">
-                    {/* <i className="fa fa-twitter"></i> */}
-                    <i className="bx bxl-twitter"></i>
-                  </a>
-                </li>
-                <li className="section_li">
-                  <a href="#">
                     <i className="bx bxl-instagram"></i>
                   </a>
                 </li>
