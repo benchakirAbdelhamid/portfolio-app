@@ -98,16 +98,6 @@ function HomePage() {
                     </div>
                   </div>
 
-                  <div className="my_social">
-                    <div className="social_content">
-                      <a href="#">
-                        <i className="bx bxl-twitter social_icon"></i>
-                      </a>
-                      <div className="social_tooltip social_tooltip-top">
-                        twitter
-                      </div>
-                    </div>
-                  </div>
 
                   <div className="my_social">
                     <div className="social_content">
