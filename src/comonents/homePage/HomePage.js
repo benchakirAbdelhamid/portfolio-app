@@ -112,7 +112,7 @@ function HomePage() {
 
                   <div className="my_social">
                     <div className="social_content">
-                      <a href="linkedin.com/in/abdelhamid-benchakir-844788264" target="_blank">
+                      <a href="https://www.linkedin.com/in/abdelhamid-benchakir-844788264/" target="_blank">
                         <i className="bx bxl-linkedin social_icon"></i>
                       </a>
                       <div className="social_tooltip social_tooltip-right">
