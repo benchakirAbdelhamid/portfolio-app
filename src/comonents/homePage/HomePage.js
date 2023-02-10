@@ -101,7 +101,7 @@ function HomePage() {
 
                   <div className="my_social">
                     <div className="social_content">
-                      <a href="https://github.com/benchakirAbdelhamid">
+                      <a href="https://github.com/benchakirAbdelhamid" target="_blank">
                         <i className="bx bxl-github social_icon"></i>
                       </a>
                       <div className="social_tooltip social_tooltip-top">
@@ -112,7 +112,7 @@ function HomePage() {
 
                   <div className="my_social">
                     <div className="social_content">
-                      <a href="linkedin.com/in/abdelhamid-benchakir-844788264">
+                      <a href="linkedin.com/in/abdelhamid-benchakir-844788264" target="_blank">
                         <i className="bx bxl-linkedin social_icon"></i>
                       </a>
                       <div className="social_tooltip social_tooltip-right">
