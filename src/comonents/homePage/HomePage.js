@@ -57,7 +57,7 @@ function HomePage() {
                 <img src={handme} alt="" />
               </p>
               <div className="cta">
-                <a href="mailto:hamidbenchakir@gmail.com" className="btn">
+                <a href="mailto:benchakirhamid@gmail.com" className="btn">
                   Contact me
                 </a>
                 <a
@@ -101,7 +101,7 @@ function HomePage() {
 
                   <div className="my_social">
                     <div className="social_content">
-                      <a href="#">
+                      <a href="https://github.com/benchakirAbdelhamid">
                         <i className="bx bxl-github social_icon"></i>
                       </a>
                       <div className="social_tooltip social_tooltip-top">
@@ -112,7 +112,7 @@ function HomePage() {
 
                   <div className="my_social">
                     <div className="social_content">
-                      <a href="#">
+                      <a href="linkedin.com/in/abdelhamid-benchakir-844788264">
                         <i className="bx bxl-linkedin social_icon"></i>
                       </a>
                       <div className="social_tooltip social_tooltip-right">
