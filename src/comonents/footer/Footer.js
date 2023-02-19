@@ -30,12 +30,12 @@ function Footer() {
                   </a>
                 </li>
                 <li className="section_li">
-                  <a href="https://www.linkedin.com/in/abdelhamid-benchakir-844788264/" target="_blank">
+                  <a href="#">
                     <i className="bx bxl-linkedin"></i>
                   </a>
                 </li>
                 <li className="section_li">
-                  <a ref="https://github.com/benchakirAbdelhamid" target="_blank">
+                  <a ref="#">
                     <i className="bx bxl-github"></i>
                   </a>
                 </li>
