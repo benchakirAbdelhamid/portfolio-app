@@ -1,0 +1,124 @@
+/* loading  */
+
+
+/* background load */
+.wrapper {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background-image: linear-gradient(-70deg, rgba(113, 6, 185, 0.619), rgba(0, 0, 255, 0.34));
+    display: grid;
+    place-items: center;
+    transition: opacity .5s, visibility 1s;
+    backdrop-filter: blur(5px);
+    /* display: none; */
+}
+
+.fade {
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+
+
+.loader {
+    border: 16px solid #7949ff;
+    border-radius: 50%;
+    border-top: 16px solid #ddcb01;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    position: absolute;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+
+
+/*=============== SCROLL UP ===============*/
+.scrollup {
+    position: fixed;
+    right: 1.5rem;
+    bottom: -30%;
+    display: inline-flex;
+    z-index: 100;
+    opacity: .8;
+    transition: 1.2s;
+}
+
+.scrollup:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.scrollup__icon {
+    font-size: 1.6rem;
+    color: hsl(31, 100%, 70%);
+}
+
+/* Show Scroll Up*/
+.show-scroll {
+    bottom: 3rem;
+}
+
+
+
+
+
+/* <!-- custom cursors  --> */
+.cursor-1,
+.cursor-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    z-index: 10000;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
+
+.cursor-1 {
+    height: 1rem;
+    width: 1rem;
+    background: rgba(97, 6, 158, 0.557);
+    transition: all .2s linear;
+}
+
+
+.cursor-1.active {
+    height: 7rem;
+    width: 7rem;
+    opacity: .3;
+    font-size: 62.5%;
+}
+
+
+.cursor-2 {
+    height: 4rem;
+    width: 4rem;
+    border: .1rem solid rgba(97, 6, 158, 0.557);
+    transition: all .28s linear;
+}
+
+.cursor-2.active {
+    display: none;
+}
+
+body.dark .cursor-1 {
+    background: rgba(144, 32, 218, 0.95);
+}
+
+body.dark .cursor-2 {
+    border: .1rem solid rgba(144, 32, 218, 0.893);
+}
