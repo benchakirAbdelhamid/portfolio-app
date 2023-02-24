@@ -239,7 +239,7 @@ function Portfolio() {
                   </div>
                 </div>
                 <div className="prt-desc">
-                  <h3>portfolio app</h3>
+                  <h3>Design animation</h3>
                   <a
                     href="https://web-frame-motion.vercel.app/"
                     target="_blank"
@@ -264,7 +264,7 @@ function Portfolio() {
                   </div>
                 </div>
                 <div className="prt-desc">
-                  <h3>portfolio app</h3>
+                  <h3>fitness app</h3>
                   <a
                     href="https://fitness-zeta-cyan.vercel.app/"
                     target="_blank"
